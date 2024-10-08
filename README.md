@@ -45,6 +45,6 @@ You'll need a browser (like Chrome, Firefox, etc.) to run the game.
 └── README.md     # Project description and documentation
 
 ## Technologies Used
-HTML: To structure the Game Layout
-CSS: For styling the game board and animations
-JavaScript: For Game logic, turn handling and win conditions.
+- **HTML**: To structure the Game Layout
+- **CSS**: For styling the game board and animations
+- **JavaScript**: For Game logic, turn handling and win conditions.
