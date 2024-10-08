@@ -37,14 +37,14 @@ You'll need a browser (like Chrome, Firefox, etc.) to run the game.
 3. **Run the Game**
    Open the index.html file in your browser to start playing.
 
-##Project Structure
+## Project Structure
 .
 ├── index.html    # The main HTML file
 ├── style.css     # Styles for the Tic-Tac-Toe game
 ├── script.js     # JavaScript logic for game functionality
 └── README.md     # Project description and documentation
 
-##Technologies Used
+## Technologies Used
 HTML: To structure the Game Layout
 CSS: For styling the game board and animations
 JavaScript: For Game logic, turn handling and win conditions.
