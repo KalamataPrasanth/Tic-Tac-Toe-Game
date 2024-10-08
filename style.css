@@ -1,0 +1,110 @@
+body{
+    background-color: #69c0ff;
+}
+.heading{
+    text-align: center;
+    color: rgb(11, 20, 63);
+    font-size: 40px;
+}
+.player{
+    height: 50px;
+    width: 210px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.player.blur{
+    filter: blur(2px);
+}
+.ind{
+    height: 50px;
+    width: 100px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(11, 20, 63);
+    color: white;
+    border-radius: 10px;
+}
+.player-select{
+    box-shadow: 0 0 10px 1px white;
+}
+.container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    gap: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container.blur{
+    filter: blur(3px);
+    pointer-events: none;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(11, 20, 63);
+    border-radius: 5px;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    color: rgb(88, 182, 250);
+    font-size: 50px;
+}
+.box:hover{
+    box-shadow: 0 0 10px 2px rgb(224, 219, 219);
+    cursor: pointer;
+}
+.result{
+    height: 50px;
+    width: 300px;
+    background-color: rgba(10, 23, 63, 0.5);
+    color: white;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-size: 30px;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    z-index: 10;
+    box-shadow: 0 0 10px 4px white;
+    }
+.result.show{
+    opacity: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+.winner{
+   text-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
+}
+.reset{
+    background-color: rgb(11, 20, 63);
+    color: rgb(224, 219, 219);
+    border: none;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    bottom: 15%;
+    transform: translate(-50%, -50%);
+}
+.reset:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.9);
+}
